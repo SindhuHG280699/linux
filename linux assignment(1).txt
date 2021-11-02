@@ -1,0 +1,21 @@
+                                47
+1- cat >file1
+2-cat >>file1
+3-cat >file2
+4-cat file1 file2
+5- cat  file1 file2  >file3
+    -cat file3
+6- cat > file1 
+    cat >file2
+    cat>file3
+    cat>file4
+    cat>file5
+    cat file1
+    cat file2
+    cat file3
+    cat file4
+    cat file5
+7- cat file1 file7 2>errfile
+     cat errfile
+8-cat file1 file5  >file10  2>file10
+9-cat file6 file6  2>errorlog
